@@ -1,0 +1,27 @@
+{
+  "name": "redux-tools",
+  "version": "1.0.0",
+  "description": "Redux tools.",
+  "main": "",
+  "private": true,
+  "directories": {
+    "cache": "cache",
+    "duck-package": "duck-package",
+    "duck-rest": "duck-rest"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "12.0.0"
+  },
+  "dependencies": {
+    "cache": "file:cache",
+    "duck-package": "file:duck-package",
+    "duck-rest": "file:duck-rest",
+    "extensions": "file:extensions"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2"
+  }
+}
